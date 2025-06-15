@@ -73,7 +73,7 @@ The command above will create a keystore file named `monad-deployer` in the `~/.
 Then, you can deploy your contract to the Monad Testnet using the keystore file you created.
 
 ```shell
-forge create src/Counter.sol:Counter --account monad-deployer --broadcast
+forge create src/CampusCredit.sol:CampusCredit --account monad-deployer --broadcast
 ```
 
 ### Verify Contract
