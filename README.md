@@ -81,7 +81,7 @@ forge create src/CampusCredit.sol:CampusCredit --account monad-deployer --broadc
 ```shell
 forge verify-contract \
   <contract_address> \
-  src/Counter.sol:Counter \
+  src/CampusCredit.sol:CampusCredit \
   --chain 10143 \
   --verifier sourcify \
   --verifier-url https://sourcify-api-monad.blockvision.org
@@ -116,7 +116,7 @@ cast wallet address --account monad-deployer
 
 ```shell
 forge create \
-  src/Counter.sol:Counter \
+  src/CampusCredit.sol:CampusCredit \
   --account monad-deployer \
   --broadcast \
   --constructor-args <constructor_arguments>
@@ -127,7 +127,7 @@ forge create \
 ```shell
 forge verify-contract \
   <contract_address> \
-  src/Counter.sol:Counter \
+  src/CampusCredit.sol:CampusCredit \
   --chain 10143 \
   --verifier sourcify \
   --verifier-url https://sourcify-api-monad.blockvision.org \
